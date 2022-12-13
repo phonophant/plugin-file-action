@@ -1,0 +1,19 @@
+{
+  "name": "@phonophant/file-action",
+  "version": "1.0.0",
+  "description": "Action that could be triggered to play a local file.",
+  "main": "./build/main.js",
+  "scripts": {
+    "build": "rimraf ./build && tsc"
+  },
+  "keywords": [],
+  "author": "Christian Bühlmeyer",
+  "license": "MIT",
+  "devDependencies": {
+    "@phonophant/shared-models": "1.0.0",
+    "@types/node": "^18.11.9",
+    "piral-cli-webpack5": "0.15",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.9.3"
+  }
+}
