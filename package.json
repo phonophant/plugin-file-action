@@ -1,10 +1,11 @@
 {
   "name": "@phonophant/file-action",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Action that could be triggered to play a local file.",
   "main": "./build/main.js",
   "scripts": {
-    "build": "rimraf ./build && tsc"
+    "build": "rimraf ./build && tsc",
+    "npm:publish": "npm publish --access public"
   },
   "keywords": [],
   "author": "Christian Bühlmeyer",
